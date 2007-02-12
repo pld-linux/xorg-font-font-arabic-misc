@@ -1,5 +1,5 @@
 Summary:	arabic-misc font
-Summary(pl):	Font arabic-misc
+Summary(pl.UTF-8):   Font arabic-misc
 Name:		xorg-font-font-arabic-misc
 Version:	1.0.0
 Release:	0.1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 arabic-misc font.
 
-%description -l pl
+%description -l pl.UTF-8
 Font arabic-misc.
 
 %prep
