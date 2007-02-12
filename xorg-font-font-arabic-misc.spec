@@ -1,5 +1,5 @@
 Summary:	arabic-misc font
-Summary(pl.UTF-8):   Font arabic-misc
+Summary(pl.UTF-8):	Font arabic-misc
 Name:		xorg-font-font-arabic-misc
 Version:	1.0.0
 Release:	0.1
