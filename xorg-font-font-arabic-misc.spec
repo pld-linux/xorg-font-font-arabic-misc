@@ -1,12 +1,12 @@
 Summary:	Arabic bitmap font
 Summary(pl.UTF-8):	Font bitmapowy Arabic
 Name:		xorg-font-font-arabic-misc
-Version:	1.0.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	MIT
 Group:		Fonts
 Source0:	http://xorg.freedesktop.org/releases/individual/font/font-arabic-misc-%{version}.tar.bz2
-# Source0-md5:	81595016e2ff859716fc256ebb136ba6
+# Source0-md5:	817ceb99636c873ad7679fe2a468678d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -33,6 +33,8 @@ Font bitmapowy Arabic (arabski).
 %{__autoconf}
 %{__automake}
 %configure \
+	--build=%{_host_platform} \
+	--host=%{_host_platform} \
 	--with-fontdir=%{_fontsdir}/misc
 
 %{__make}
